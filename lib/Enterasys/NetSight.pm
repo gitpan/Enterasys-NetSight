@@ -1,6 +1,6 @@
 package Enterasys::NetSight;
 {
-  $Enterasys::NetSight::VERSION = '0.02';
+  $Enterasys::NetSight::VERSION = '0.10';
 }
 use strict;
 use warnings;
@@ -293,7 +293,7 @@ Enterasys::NetSight - Provides an abstraction layer between SOAP::Lite and the N
 
 =head1 VERSION
 
-version 0.02
+version 0.10
 
 =head1 SYNOPSIS
 
