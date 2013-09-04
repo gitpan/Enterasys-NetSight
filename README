@@ -1,7 +1,7 @@
 
 
 This archive contains the distribution Enterasys-NetSight,
-version 0.10:
+version 1.0:
 
   Provides an abstraction layer between SOAP::Lite and the Netsight Device WebService.
 

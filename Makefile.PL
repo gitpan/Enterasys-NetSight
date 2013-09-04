@@ -12,7 +12,8 @@ my %WriteMakefileArgs = (
   "ABSTRACT" => "Provides an abstraction layer between SOAP::Lite and the Netsight Device WebService.",
   "AUTHOR" => "Chris Handwerker <chandwer\@enterasys.com>",
   "BUILD_REQUIRES" => {
-    "Test::More" => 0
+    "Test::More" => 0,
+    "warnings" => 0
   },
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => "6.30"
@@ -24,11 +25,9 @@ my %WriteMakefileArgs = (
   "PREREQ_PM" => {
     "Carp" => 0,
     "SOAP::Lite" => 0,
-    "Socket" => 0,
-    "strict" => 0,
-    "warnings" => 0
+    "Socket" => 0
   },
-  "VERSION" => "0.10",
+  "VERSION" => "1.0",
   "test" => {
     "TESTS" => "t/*.t"
   }

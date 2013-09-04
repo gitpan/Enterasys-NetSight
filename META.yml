@@ -4,6 +4,7 @@ author:
   - 'Chris Handwerker <chandwer@enterasys.com>'
 build_requires:
   Test::More: 0
+  warnings: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
@@ -17,6 +18,6 @@ requires:
   Carp: 0
   SOAP::Lite: 0
   Socket: 0
-  strict: 0
-  warnings: 0
-version: 0.10
+resources:
+  repository: https://github.com/chandwer/Enterasys-NetSight.git
+version: 1.0
