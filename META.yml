@@ -20,4 +20,4 @@ requires:
   Socket: 0
 resources:
   repository: https://github.com/chandwer/Enterasys-NetSight.git
-version: 1.0
+version: 1.1
